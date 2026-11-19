@@ -47,14 +47,18 @@ def render(image,disparity,baseline,indices=False):
     return (frame,pick) if indices else frame
 
 
-def features(left,right,baseline,y,x):
+def offset_features(left,right,shifts,y,x):
     dy,dx=PATCH.T
     yp=y[:,None]+dy;xp=x[:,None]+dx
     # The renderer's margins keep all sampled reference patches and candidates on the canvas.
     lp=left[yp,xp]
-    xx=xp[:,None,:]-baseline*LEVELS[None,:,None]
+    xx=xp[:,None,:]-np.asarray(shifts)[None,:,None]
     rp=right[yp[:,None,:],xx]
     return np.concatenate((np.broadcast_to(lp[:,None,:],rp.shape),rp),axis=-1).astype(np.float32)
+
+
+def features(left,right,baseline,y,x):
+    return offset_features(left,right,baseline*LEVELS,y,x)
 
 
 def training_batch(rng):
@@ -72,8 +76,8 @@ def training_batch(rng):
     return np.concatenate(features_all),np.concatenate(residuals)
 
 
-def quartet_panel(novel,count=96):
-    rng=np.random.default_rng(182763 if novel else 118298)
+def quartet_panel(novel,count=96,seed=None):
+    rng=np.random.default_rng((182763 if novel else 118298) if seed is None else seed)
     for _ in range(count):
         left,owner,kinds=layout(rng,novel)
         perm=rng.permutation(4)
