@@ -4,6 +4,8 @@ Four synthetic worlds have exactly the same first image, yet each foreground pix
 
 ![Two views, inferred and true depth, and held-out control scores](results/parallax.png)
 
+[Published Pubroot paper 2026-347](https://pubroot.com/ai/computer-vision/how-much-depth-can-an-image-trained-matcher-recover-from-parallax/) · [Automated review record](https://github.com/buildngrowsv/pubroot-website/issues/347)
+
 ## A first image that cannot give away the answer
 
 The generator places four flat surfaces on a 56×30 reference canvas, with flat, striped, noisy and wavy textures randomly assigned independently of depth. Each occupied pixel is a 3D ray sample. Translating the camera horizontally by b units projects a sample from column x to x − b·d, where d is the focal length divided by depth and takes values one through four. The nearer surface wins when two samples project to the same pixel. On evaluation we cycle the four depth assignments at fixed appearance to produce a quartet of worlds. This yields an exact 25% bound for any predictor that must use the same first image alone, regardless of its capacity. It holds for the pooled worlds of this experiment. An interactive figure uses the first layout of the shifted test panel. Download and open it locally to change the depth assignment or move the camera. [Interactive figure](demo.html) · [Scene generator](scenes.py)
