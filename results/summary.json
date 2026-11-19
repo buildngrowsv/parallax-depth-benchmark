@@ -1,0 +1,753 @@
+{
+  "original": {
+    "scores": {
+      "stereo": {
+        "all": {
+          "sites": 160376,
+          "hits": 132169,
+          "exact": 0.8241195690128199
+        },
+        "visible": {
+          "sites": 157911,
+          "hits": 131438,
+          "exact": 0.8323549341084535
+        },
+        "occluded": {
+          "sites": 2465,
+          "hits": 731,
+          "exact": 0.296551724137931
+        },
+        "flat": {
+          "sites": 39444,
+          "hits": 18624,
+          "exact": 0.47216306662610286
+        },
+        "textured": {
+          "sites": 120932,
+          "hits": 113545,
+          "exact": 0.9389160850726028
+        },
+        "novel_view_mae": 0.09915939380478925
+      },
+      "single": {
+        "all": {
+          "sites": 160376,
+          "hits": 40094,
+          "exact": 0.25
+        },
+        "visible": {
+          "sites": 157911,
+          "hits": 39274,
+          "exact": 0.24870971623256138
+        },
+        "occluded": {
+          "sites": 2465,
+          "hits": 820,
+          "exact": 0.332657200811359
+        },
+        "flat": {
+          "sites": 39444,
+          "hits": 9861,
+          "exact": 0.25
+        },
+        "textured": {
+          "sites": 120932,
+          "hits": 30233,
+          "exact": 0.25
+        },
+        "novel_view_mae": 0.21703566056988122
+      },
+      "oracle": {
+        "all": {
+          "sites": 160376,
+          "hits": 160376,
+          "exact": 1.0
+        },
+        "visible": {
+          "sites": 157911,
+          "hits": 157911,
+          "exact": 1.0
+        },
+        "occluded": {
+          "sites": 2465,
+          "hits": 2465,
+          "exact": 1.0
+        },
+        "flat": {
+          "sites": 39444,
+          "hits": 39444,
+          "exact": 1.0
+        },
+        "textured": {
+          "sites": 120932,
+          "hits": 120932,
+          "exact": 1.0
+        },
+        "novel_view_mae": 0.0
+      },
+      "initial_101": {
+        "all": {
+          "sites": 160376,
+          "hits": 46555,
+          "exact": 0.29028657654511897
+        },
+        "visible": {
+          "sites": 157911,
+          "hits": 45913,
+          "exact": 0.29075238583759205
+        },
+        "occluded": {
+          "sites": 2465,
+          "hits": 642,
+          "exact": 0.26044624746450307
+        },
+        "flat": {
+          "sites": 39444,
+          "hits": 11188,
+          "exact": 0.2836426325930433
+        },
+        "textured": {
+          "sites": 120932,
+          "hits": 35367,
+          "exact": 0.292453610293388
+        },
+        "novel_view_mae": 0.2747229612119356
+      },
+      "trained_101": {
+        "all": {
+          "sites": 160376,
+          "hits": 131441,
+          "exact": 0.8195802364443557
+        },
+        "visible": {
+          "sites": 157911,
+          "hits": 130924,
+          "exact": 0.8290999360399213
+        },
+        "occluded": {
+          "sites": 2465,
+          "hits": 517,
+          "exact": 0.20973630831643003
+        },
+        "flat": {
+          "sites": 39444,
+          "hits": 18655,
+          "exact": 0.4729489909745462
+        },
+        "textured": {
+          "sites": 120932,
+          "hits": 112786,
+          "exact": 0.932639830648629
+        },
+        "novel_view_mae": 0.10144337333876999
+      },
+      "initial_211": {
+        "all": {
+          "sites": 160376,
+          "hits": 33876,
+          "exact": 0.21122861276001398
+        },
+        "visible": {
+          "sites": 157911,
+          "hits": 33268,
+          "exact": 0.2106756337430578
+        },
+        "occluded": {
+          "sites": 2465,
+          "hits": 608,
+          "exact": 0.24665314401622718
+        },
+        "flat": {
+          "sites": 39444,
+          "hits": 7198,
+          "exact": 0.18248656322888146
+        },
+        "textured": {
+          "sites": 120932,
+          "hits": 26678,
+          "exact": 0.22060331425925314
+        },
+        "novel_view_mae": 0.30224219576224415
+      },
+      "trained_211": {
+        "all": {
+          "sites": 160376,
+          "hits": 131093,
+          "exact": 0.817410335711079
+        },
+        "visible": {
+          "sites": 157911,
+          "hits": 130585,
+          "exact": 0.826953157158146
+        },
+        "occluded": {
+          "sites": 2465,
+          "hits": 508,
+          "exact": 0.20608519269776876
+        },
+        "flat": {
+          "sites": 39444,
+          "hits": 18592,
+          "exact": 0.4713517898793226
+        },
+        "textured": {
+          "sites": 120932,
+          "hits": 112501,
+          "exact": 0.9302831343234215
+        },
+        "novel_view_mae": 0.10204106245302987
+      },
+      "initial_307": {
+        "all": {
+          "sites": 160376,
+          "hits": 32457,
+          "exact": 0.20238065545966977
+        },
+        "visible": {
+          "sites": 157911,
+          "hits": 31779,
+          "exact": 0.2012462716340217
+        },
+        "occluded": {
+          "sites": 2465,
+          "hits": 678,
+          "exact": 0.2750507099391481
+        },
+        "flat": {
+          "sites": 39444,
+          "hits": 7783,
+          "exact": 0.19731771625595781
+        },
+        "textured": {
+          "sites": 120932,
+          "hits": 24674,
+          "exact": 0.20403201799358317
+        },
+        "novel_view_mae": 0.2965745168971552
+      },
+      "trained_307": {
+        "all": {
+          "sites": 160376,
+          "hits": 131481,
+          "exact": 0.8198296503217439
+        },
+        "visible": {
+          "sites": 157911,
+          "hits": 130992,
+          "exact": 0.8295305583524897
+        },
+        "occluded": {
+          "sites": 2465,
+          "hits": 489,
+          "exact": 0.19837728194726167
+        },
+        "flat": {
+          "sites": 39444,
+          "hits": 18661,
+          "exact": 0.4731011053645675
+        },
+        "textured": {
+          "sites": 120932,
+          "hits": 112820,
+          "exact": 0.9329209803856713
+        },
+        "novel_view_mae": 0.1012457344818654
+      }
+    },
+    "effects": {
+      "trained_minus_initial": [
+        0.5843081259041253,
+        0.531503529092653,
+        0.6208014607451373
+      ],
+      "trained_minus_single": [
+        0.5689400741590596,
+        0.5583473628872546,
+        0.579495266368882
+      ],
+      "trained_minus_stereo": [
+        -0.005179494853760347,
+        -0.006878606346926758,
+        -0.003735369237587741
+      ]
+    }
+  },
+  "shift": {
+    "scores": {
+      "stereo": {
+        "all": {
+          "sites": 92656,
+          "hits": 86159,
+          "exact": 0.929880417889829
+        },
+        "visible": {
+          "sites": 91488,
+          "hits": 85683,
+          "exact": 0.936549055613851
+        },
+        "occluded": {
+          "sites": 1168,
+          "hits": 476,
+          "exact": 0.4075342465753425
+        },
+        "flat": {
+          "sites": 23264,
+          "hits": 17846,
+          "exact": 0.7671079779917469
+        },
+        "textured": {
+          "sites": 69392,
+          "hits": 68313,
+          "exact": 0.9844506571362693
+        },
+        "novel_view_mae": 0.04385631454041526
+      },
+      "single": {
+        "all": {
+          "sites": 92656,
+          "hits": 23164,
+          "exact": 0.25
+        },
+        "visible": {
+          "sites": 91488,
+          "hits": 22928,
+          "exact": 0.2506121021336131
+        },
+        "occluded": {
+          "sites": 1168,
+          "hits": 236,
+          "exact": 0.20205479452054795
+        },
+        "flat": {
+          "sites": 23264,
+          "hits": 5816,
+          "exact": 0.25
+        },
+        "textured": {
+          "sites": 69392,
+          "hits": 17348,
+          "exact": 0.25
+        },
+        "novel_view_mae": 0.3031833240542977
+      },
+      "oracle": {
+        "all": {
+          "sites": 92656,
+          "hits": 92656,
+          "exact": 1.0
+        },
+        "visible": {
+          "sites": 91488,
+          "hits": 91488,
+          "exact": 1.0
+        },
+        "occluded": {
+          "sites": 1168,
+          "hits": 1168,
+          "exact": 1.0
+        },
+        "flat": {
+          "sites": 23264,
+          "hits": 23264,
+          "exact": 1.0
+        },
+        "textured": {
+          "sites": 69392,
+          "hits": 69392,
+          "exact": 1.0
+        },
+        "novel_view_mae": 0.0
+      },
+      "initial_101": {
+        "all": {
+          "sites": 92656,
+          "hits": 35501,
+          "exact": 0.38314841996201
+        },
+        "visible": {
+          "sites": 91488,
+          "hits": 35239,
+          "exact": 0.38517619797131863
+        },
+        "occluded": {
+          "sites": 1168,
+          "hits": 262,
+          "exact": 0.2243150684931507
+        },
+        "flat": {
+          "sites": 23264,
+          "hits": 9123,
+          "exact": 0.3921509628610729
+        },
+        "textured": {
+          "sites": 69392,
+          "hits": 26378,
+          "exact": 0.38013027438321423
+        },
+        "novel_view_mae": 0.30792071997106446
+      },
+      "trained_101": {
+        "all": {
+          "sites": 92656,
+          "hits": 85710,
+          "exact": 0.9250345363495078
+        },
+        "visible": {
+          "sites": 91488,
+          "hits": 85357,
+          "exact": 0.932985746764603
+        },
+        "occluded": {
+          "sites": 1168,
+          "hits": 353,
+          "exact": 0.3022260273972603
+        },
+        "flat": {
+          "sites": 23264,
+          "hits": 17873,
+          "exact": 0.7682685694635488
+        },
+        "textured": {
+          "sites": 69392,
+          "hits": 67837,
+          "exact": 0.9775910767811852
+        },
+        "novel_view_mae": 0.04684435722716837
+      },
+      "initial_211": {
+        "all": {
+          "sites": 92656,
+          "hits": 10462,
+          "exact": 0.11291227767225004
+        },
+        "visible": {
+          "sites": 91488,
+          "hits": 10181,
+          "exact": 0.11128235396991955
+        },
+        "occluded": {
+          "sites": 1168,
+          "hits": 281,
+          "exact": 0.2405821917808219
+        },
+        "flat": {
+          "sites": 23264,
+          "hits": 2232,
+          "exact": 0.09594222833562586
+        },
+        "textured": {
+          "sites": 69392,
+          "hits": 8230,
+          "exact": 0.11860156790408116
+        },
+        "novel_view_mae": 0.4025252810253994
+      },
+      "trained_211": {
+        "all": {
+          "sites": 92656,
+          "hits": 85680,
+          "exact": 0.9247107580728717
+        },
+        "visible": {
+          "sites": 91488,
+          "hits": 85319,
+          "exact": 0.9325703917453655
+        },
+        "occluded": {
+          "sites": 1168,
+          "hits": 361,
+          "exact": 0.3090753424657534
+        },
+        "flat": {
+          "sites": 23264,
+          "hits": 17854,
+          "exact": 0.7674518569463549
+        },
+        "textured": {
+          "sites": 69392,
+          "hits": 67826,
+          "exact": 0.9774325570670971
+        },
+        "novel_view_mae": 0.04701515870328567
+      },
+      "initial_307": {
+        "all": {
+          "sites": 92656,
+          "hits": 12013,
+          "exact": 0.1296516145743395
+        },
+        "visible": {
+          "sites": 91488,
+          "hits": 11680,
+          "exact": 0.12766701643931444
+        },
+        "occluded": {
+          "sites": 1168,
+          "hits": 333,
+          "exact": 0.2851027397260274
+        },
+        "flat": {
+          "sites": 23264,
+          "hits": 2949,
+          "exact": 0.1267623796423659
+        },
+        "textured": {
+          "sites": 69392,
+          "hits": 9064,
+          "exact": 0.13062024440857736
+        },
+        "novel_view_mae": 0.3868883233526059
+      },
+      "trained_307": {
+        "all": {
+          "sites": 92656,
+          "hits": 85749,
+          "exact": 0.9254554481091348
+        },
+        "visible": {
+          "sites": 91488,
+          "hits": 85392,
+          "exact": 0.9333683105981112
+        },
+        "occluded": {
+          "sites": 1168,
+          "hits": 357,
+          "exact": 0.3056506849315068
+        },
+        "flat": {
+          "sites": 23264,
+          "hits": 17860,
+          "exact": 0.7677097661623109
+        },
+        "textured": {
+          "sites": 69392,
+          "hits": 67889,
+          "exact": 0.9783404427023288
+        },
+        "novel_view_mae": 0.04666226550746302
+      }
+    },
+    "effects": {
+      "trained_minus_initial": [
+        0.7164961434409716,
+        0.5427670256499219,
+        0.811884268272406
+      ],
+      "trained_minus_single": [
+        0.6750669141771715,
+        0.6701016475874005,
+        0.680141186546363
+      ],
+      "trained_minus_stereo": [
+        -0.004813503712657541,
+        -0.005849785360032364,
+        -0.0038290634781529666
+      ]
+    }
+  },
+  "search": {
+    "scores": {
+      "four_stereo": {
+        "all": {
+          "sites": 92500,
+          "hits": 85890,
+          "exact": 0.9285405405405406,
+          "uniform_tie": 0.9297783783783784,
+          "inadmissible": 0.0
+        },
+        "flat": {
+          "sites": 23168,
+          "hits": 17813,
+          "exact": 0.768862223756906,
+          "uniform_tie": 0.7725166896869246,
+          "inadmissible": 0.0
+        },
+        "textured": {
+          "sites": 69332,
+          "hits": 68077,
+          "exact": 0.98189869035943,
+          "uniform_tie": 0.9823289870959057,
+          "inadmissible": 0.0
+        }
+      },
+      "four_101": {
+        "all": {
+          "sites": 92500,
+          "hits": 85295,
+          "exact": 0.9221081081081081,
+          "uniform_tie": 0.9233603603603605,
+          "inadmissible": 0.0
+        },
+        "flat": {
+          "sites": 23168,
+          "hits": 17792,
+          "exact": 0.7679558011049724,
+          "uniform_tie": 0.7716462361878453,
+          "inadmissible": 0.0
+        },
+        "textured": {
+          "sites": 69332,
+          "hits": 67503,
+          "exact": 0.9736196849939421,
+          "uniform_tie": 0.9740571934075655,
+          "inadmissible": 0.0
+        }
+      },
+      "four_211": {
+        "all": {
+          "sites": 92500,
+          "hits": 85223,
+          "exact": 0.9213297297297297,
+          "uniform_tie": 0.922572972972973,
+          "inadmissible": 0.0
+        },
+        "flat": {
+          "sites": 23168,
+          "hits": 17796,
+          "exact": 0.768128453038674,
+          "uniform_tie": 0.7718045004604052,
+          "inadmissible": 0.0
+        },
+        "textured": {
+          "sites": 69332,
+          "hits": 67427,
+          "exact": 0.9725235100675013,
+          "uniform_tie": 0.9729538068039769,
+          "inadmissible": 0.0
+        }
+      },
+      "four_307": {
+        "all": {
+          "sites": 92500,
+          "hits": 85358,
+          "exact": 0.9227891891891892,
+          "uniform_tie": 0.924027027027027,
+          "inadmissible": 0.0
+        },
+        "flat": {
+          "sites": 23168,
+          "hits": 17806,
+          "exact": 0.7685600828729282,
+          "uniform_tie": 0.772192967311234,
+          "inadmissible": 0.0
+        },
+        "textured": {
+          "sites": 69332,
+          "hits": 67552,
+          "exact": 0.9743264293544107,
+          "uniform_tie": 0.9747639377680339,
+          "inadmissible": 0.0
+        }
+      },
+      "dense_stereo": {
+        "all": {
+          "sites": 92500,
+          "hits": 80403,
+          "exact": 0.8692216216216216,
+          "uniform_tie": 0.8606066495066491,
+          "inadmissible": 0.0856972972972973
+        },
+        "flat": {
+          "sites": 23168,
+          "hits": 15694,
+          "exact": 0.677399861878453,
+          "uniform_tie": 0.6551794894983775,
+          "inadmissible": 0.17131388121546962
+        },
+        "textured": {
+          "sites": 69332,
+          "hits": 64709,
+          "exact": 0.9333208330929441,
+          "uniform_tie": 0.9292522452354854,
+          "inadmissible": 0.05708763630069809
+        }
+      },
+      "dense_101": {
+        "all": {
+          "sites": 92500,
+          "hits": 79507,
+          "exact": 0.8595351351351351,
+          "uniform_tie": 0.8508933161733159,
+          "inadmissible": 0.09420540540540541
+        },
+        "flat": {
+          "sites": 23168,
+          "hits": 15600,
+          "exact": 0.6733425414364641,
+          "uniform_tie": 0.651138303790669,
+          "inadmissible": 0.17774516574585636
+        },
+        "textured": {
+          "sites": 69332,
+          "hits": 63907,
+          "exact": 0.9217533029481336,
+          "uniform_tie": 0.9176435055069742,
+          "inadmissible": 0.06628973634108348
+        }
+      },
+      "dense_211": {
+        "all": {
+          "sites": 92500,
+          "hits": 79411,
+          "exact": 0.8584972972972973,
+          "uniform_tie": 0.8498640497640494,
+          "inadmissible": 0.09497297297297297
+        },
+        "flat": {
+          "sites": 23168,
+          "hits": 15604,
+          "exact": 0.6735151933701657,
+          "uniform_tie": 0.6513307901429447,
+          "inadmissible": 0.17748618784530387
+        },
+        "textured": {
+          "sites": 69332,
+          "hits": 63807,
+          "exact": 0.9203109675186061,
+          "uniform_tie": 0.9162059778622118,
+          "inadmissible": 0.06740033462181964
+        }
+      },
+      "dense_307": {
+        "all": {
+          "sites": 92500,
+          "hits": 79571,
+          "exact": 0.860227027027027,
+          "uniform_tie": 0.8516038695838692,
+          "inadmissible": 0.09378378378378378
+        },
+        "flat": {
+          "sites": 23168,
+          "hits": 15617,
+          "exact": 0.6740763121546961,
+          "uniform_tie": 0.6519465820398139,
+          "inadmissible": 0.17722720994475138
+        },
+        "textured": {
+          "sites": 69332,
+          "hits": 63954,
+          "exact": 0.9224312006000115,
+          "uniform_tie": 0.9183214031588521,
+          "inadmissible": 0.06590030577511106
+        }
+      }
+    },
+    "effects": {
+      "four_trained_minus_stereo": [
+        -0.006464864864864861,
+        -0.007914249669938925,
+        -0.005143229261716804
+      ],
+      "dense_trained_minus_stereo": [
+        -0.00980180180180179,
+        -0.011564985736125053,
+        -0.00817332339454165
+      ],
+      "dense_minus_four": [
+        -0.06265585585585587,
+        -0.06880299266572044,
+        -0.056914634655262336
+      ]
+    }
+  }
+}

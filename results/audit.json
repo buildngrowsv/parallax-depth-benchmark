@@ -1,0 +1,73 @@
+{
+  "worlds_checked": {
+    "original": 384,
+    "shift": 384,
+    "search": 384
+  },
+  "all_saved_trained_and_stereo_counts_reproduced": true,
+  "projection_identical": true,
+  "numpy_vs_metal_max_logit_difference": {
+    "original_trained_101": 0.1053466796875,
+    "original_trained_211": 0.095458984375,
+    "original_trained_307": 0.0947723388671875,
+    "shift_trained_101": 0.11339569091796875,
+    "shift_trained_211": 0.11016082763671875,
+    "shift_trained_307": 0.10594940185546875,
+    "search_four_101": 0.1048431396484375,
+    "search_four_211": 0.0970306396484375,
+    "search_four_307": 0.0946197509765625,
+    "search_dense_101": 0.108551025390625,
+    "search_dense_211": 0.0995941162109375,
+    "search_dense_307": 0.1015777587890625
+  },
+  "numpy_vs_metal_top1_disagreements_and_total": {
+    "original_trained_101": [
+      2,
+      12900
+    ],
+    "original_trained_211": [
+      0,
+      12900
+    ],
+    "original_trained_307": [
+      2,
+      12900
+    ],
+    "shift_trained_101": [
+      1,
+      7256
+    ],
+    "shift_trained_211": [
+      0,
+      7256
+    ],
+    "shift_trained_307": [
+      0,
+      7256
+    ],
+    "search_four_101": [
+      0,
+      7800
+    ],
+    "search_four_211": [
+      0,
+      7800
+    ],
+    "search_four_307": [
+      0,
+      7800
+    ],
+    "search_dense_101": [
+      7,
+      7800
+    ],
+    "search_dense_211": [
+      1,
+      7800
+    ],
+    "search_dense_307": [
+      31,
+      7800
+    ]
+  }
+}
