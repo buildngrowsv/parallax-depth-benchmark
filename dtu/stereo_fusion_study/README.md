@@ -24,3 +24,5 @@ This result covers two staged tabletop scenes, calibrated cameras, common-visibl
 ## Reproduction
 
 The benchmark ran in 6.85 seconds on the arm64 Apple M5 Ultra with 256 GiB unified memory, macOS build 26B118, Python 3.12.16, NumPy 2.5.5 and Pillow 13.0.0. The repository contains the raw scored depths, view IDs, recorded coordinates and source hashes. The official DTU photographs and scans are staged separately using `dtu/stage.py` and the published geometry manifest. Put the staged directory at `datasets/dtu/sample-pilot` under a temporary `STUDIO_QUEUE_ROOT`, set `STUDIO_JOB_DIR` to a fresh result directory, and run `python dtu/stereo_fusion.py`. Use `uv run --with numpy python dtu/stereo_fusion_study/verify.py` to recompute the published scores. The owner proposed testing visual depth cues. OpenAI Codex registered, implemented, ran, audited and documented the comparison. [Run receipt](results/receipt.json) · [Environment](results/studio-environment.txt) · [Independent verifier](verify.py)
+
+[Pubroot submission and review](https://github.com/buildngrowsv/pubroot-website/issues/549)
