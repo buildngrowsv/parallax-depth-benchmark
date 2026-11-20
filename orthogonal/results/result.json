@@ -1,0 +1,58 @@
+{
+  "decision": "orthogonal_resolves_alias",
+  "layouts": 1024,
+  "subsets": {
+    "all_foreground": {
+      "n": 996980,
+      "correct": {
+        "first_horizontal": 967775,
+        "opposite_horizontal": 988133,
+        "perpendicular": 993895,
+        "wrong_perpendicular": 427111
+      }
+    },
+    "horizontal_repeat": {
+      "n": 497580,
+      "correct": {
+        "first_horizontal": 469773,
+        "opposite_horizontal": 489577,
+        "perpendicular": 495991,
+        "wrong_perpendicular": 188920
+      }
+    },
+    "vertical_repeat": {
+      "n": 499400,
+      "correct": {
+        "first_horizontal": 498002,
+        "opposite_horizontal": 498556,
+        "perpendicular": 497904,
+        "wrong_perpendicular": 238191
+      }
+    },
+    "exact_alias_pairs": {
+      "n": 4057,
+      "correct": {
+        "first_horizontal": 0,
+        "opposite_horizontal": 0,
+        "perpendicular": 3939,
+        "wrong_perpendicular": 0
+      }
+    }
+  },
+  "perpendicular_advantages": {
+    "same_axis": {
+      "mean": 0.9709144688193246,
+      "interval": [
+        0.9629627372924959,
+        0.9784033544830311
+      ]
+    },
+    "wrong_image": {
+      "mean": 0.9709144688193246,
+      "interval": [
+        0.9629627372924959,
+        0.9784033544830311
+      ]
+    }
+  }
+}

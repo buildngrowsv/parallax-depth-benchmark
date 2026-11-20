@@ -60,3 +60,5 @@ python demo.py
 python figure.py
 ```
 
+
+A perpendicular view recovered 3,939 of 4,057 repeated-texture depth aliases where two horizontal viewpoints tied exactly. [Orthogonal camera comparison](orthogonal/README.md)
