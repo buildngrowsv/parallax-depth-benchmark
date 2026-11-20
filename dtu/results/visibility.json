@@ -1,0 +1,236 @@
+{
+  "decision": "visible_triplets_qualify",
+  "manifest_digest": "d28f6112e435d2e8e3375c163b24fd23eb22aa1a22edc663d80e58b91993a8d6",
+  "downsample": 4,
+  "tolerance_mm": 5.0,
+  "scenes": {
+    "1": {
+      "scan_points": 2880879,
+      "qualifying": 12,
+      "triplets": [
+        {
+          "reference": 1,
+          "horizontal": 15,
+          "vertical": 28,
+          "reference_pixels": 70796,
+          "horizontal_pixels": 60629,
+          "vertical_pixels": 60743,
+          "shared_pixels": 55429
+        },
+        {
+          "reference": 5,
+          "horizontal": 2,
+          "vertical": 20,
+          "reference_pixels": 65369,
+          "horizontal_pixels": 53940,
+          "vertical_pixels": 52869,
+          "shared_pixels": 42890
+        },
+        {
+          "reference": 9,
+          "horizontal": 7,
+          "vertical": 25,
+          "reference_pixels": 84326,
+          "horizontal_pixels": 69678,
+          "vertical_pixels": 76019,
+          "shared_pixels": 63083
+        },
+        {
+          "reference": 14,
+          "horizontal": 17,
+          "vertical": 47,
+          "reference_pixels": 76952,
+          "horizontal_pixels": 62849,
+          "vertical_pixels": 62638,
+          "shared_pixels": 51897
+        },
+        {
+          "reference": 18,
+          "horizontal": 24,
+          "vertical": 5,
+          "reference_pixels": 74083,
+          "horizontal_pixels": 67025,
+          "vertical_pixels": 64573,
+          "shared_pixels": 60584
+        },
+        {
+          "reference": 22,
+          "horizontal": 16,
+          "vertical": 42,
+          "reference_pixels": 70974,
+          "horizontal_pixels": 66623,
+          "vertical_pixels": 63168,
+          "shared_pixels": 61366
+        },
+        {
+          "reference": 27,
+          "horizontal": 24,
+          "vertical": 2,
+          "reference_pixels": 68390,
+          "horizontal_pixels": 60733,
+          "vertical_pixels": 67761,
+          "shared_pixels": 60674
+        },
+        {
+          "reference": 31,
+          "horizontal": 32,
+          "vertical": 47,
+          "reference_pixels": 62416,
+          "horizontal_pixels": 61209,
+          "vertical_pixels": 59720,
+          "shared_pixels": 58962
+        },
+        {
+          "reference": 35,
+          "horizontal": 38,
+          "vertical": 9,
+          "reference_pixels": 68457,
+          "horizontal_pixels": 56217,
+          "vertical_pixels": 67727,
+          "shared_pixels": 55567
+        },
+        {
+          "reference": 40,
+          "horizontal": 43,
+          "vertical": 19,
+          "reference_pixels": 51840,
+          "horizontal_pixels": 49368,
+          "vertical_pixels": 51365,
+          "shared_pixels": 48924
+        },
+        {
+          "reference": 44,
+          "horizontal": 43,
+          "vertical": 34,
+          "reference_pixels": 61856,
+          "horizontal_pixels": 59467,
+          "vertical_pixels": 60984,
+          "shared_pixels": 58855
+        },
+        {
+          "reference": 49,
+          "horizontal": 32,
+          "vertical": 12,
+          "reference_pixels": 49854,
+          "horizontal_pixels": 48862,
+          "vertical_pixels": 48016,
+          "shared_pixels": 47057
+        }
+      ]
+    },
+    "6": {
+      "scan_points": 3279989,
+      "qualifying": 12,
+      "triplets": [
+        {
+          "reference": 1,
+          "horizontal": 15,
+          "vertical": 28,
+          "reference_pixels": 71819,
+          "horizontal_pixels": 57870,
+          "vertical_pixels": 58391,
+          "shared_pixels": 51857
+        },
+        {
+          "reference": 5,
+          "horizontal": 2,
+          "vertical": 20,
+          "reference_pixels": 72714,
+          "horizontal_pixels": 58646,
+          "vertical_pixels": 57459,
+          "shared_pixels": 44855
+        },
+        {
+          "reference": 9,
+          "horizontal": 7,
+          "vertical": 25,
+          "reference_pixels": 87284,
+          "horizontal_pixels": 73728,
+          "vertical_pixels": 77492,
+          "shared_pixels": 65805
+        },
+        {
+          "reference": 14,
+          "horizontal": 17,
+          "vertical": 47,
+          "reference_pixels": 82259,
+          "horizontal_pixels": 64052,
+          "vertical_pixels": 62709,
+          "shared_pixels": 54345
+        },
+        {
+          "reference": 18,
+          "horizontal": 24,
+          "vertical": 5,
+          "reference_pixels": 81158,
+          "horizontal_pixels": 72870,
+          "vertical_pixels": 66563,
+          "shared_pixels": 61118
+        },
+        {
+          "reference": 22,
+          "horizontal": 16,
+          "vertical": 42,
+          "reference_pixels": 78303,
+          "horizontal_pixels": 72860,
+          "vertical_pixels": 71399,
+          "shared_pixels": 68616
+        },
+        {
+          "reference": 27,
+          "horizontal": 24,
+          "vertical": 2,
+          "reference_pixels": 71606,
+          "horizontal_pixels": 58090,
+          "vertical_pixels": 60044,
+          "shared_pixels": 53777
+        },
+        {
+          "reference": 31,
+          "horizontal": 32,
+          "vertical": 47,
+          "reference_pixels": 62022,
+          "horizontal_pixels": 58341,
+          "vertical_pixels": 55760,
+          "shared_pixels": 54598
+        },
+        {
+          "reference": 35,
+          "horizontal": 38,
+          "vertical": 9,
+          "reference_pixels": 74931,
+          "horizontal_pixels": 62620,
+          "vertical_pixels": 71445,
+          "shared_pixels": 59929
+        },
+        {
+          "reference": 40,
+          "horizontal": 43,
+          "vertical": 19,
+          "reference_pixels": 61246,
+          "horizontal_pixels": 57118,
+          "vertical_pixels": 58214,
+          "shared_pixels": 54263
+        },
+        {
+          "reference": 44,
+          "horizontal": 43,
+          "vertical": 34,
+          "reference_pixels": 66723,
+          "horizontal_pixels": 64003,
+          "vertical_pixels": 65389,
+          "shared_pixels": 63017
+        },
+        {
+          "reference": 49,
+          "horizontal": 32,
+          "vertical": 12,
+          "reference_pixels": 42859,
+          "horizontal_pixels": 37670,
+          "vertical_pixels": 39950,
+          "shared_pixels": 34973
+        }
+      ]
+    }
+  }
+}
