@@ -21,4 +21,4 @@ The perpendicular view gained 97.09 percentage points in the exact alias subset 
 
 Run `uv run --with numpy python orthogonal/verify.py` to reconstruct every layout and recompute the paired counts and intervals. The NumPy run took three seconds on the owner's Apple M5 Ultra. The owner proposed distinguishing geometric information available in images from directly supplied 3D data. OpenAI Codex designed and implemented the comparison, ran it, verified it and assisted with writing. [Version-pinned Studio receipt](results/receipt.json)
 
-[Pubroot submission and review](https://github.com/buildngrowsv/pubroot-website/issues/453)
+[Published Pubroot article](https://pubroot.com/ai/computer-vision/a-perpendicular-camera-resolved-3-939-depth-aliases-left-tied-by-collinear-cameras/) · [Pubroot submission and review](https://github.com/buildngrowsv/pubroot-website/issues/453)
