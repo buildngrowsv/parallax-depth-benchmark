@@ -1,0 +1,794 @@
+{
+  "source": "https://roboimagedata2.compute.dtu.dk/data/MVS/SampleSet.zip",
+  "cameras": 49,
+  "matched_triplets": 49,
+  "decision": "dtu_pose_geometry_qualifies",
+  "calibration_sha256": {
+    "SampleSet/MVS Data/Calibration/cal18/pos_001.txt": "892234b937d511d0e10ab80f7832f2e3316a032aa0221db264c795169273ba20",
+    "SampleSet/MVS Data/Calibration/cal18/pos_002.txt": "ad57a8e6042f616d7c225d944fe5b01ecbfedfcb8fea3148e776139c0a79045a",
+    "SampleSet/MVS Data/Calibration/cal18/pos_003.txt": "2ae1bd34ae18b7595cf0c3125aa5d669f69775a885b69ee9e8426cabcba491cb",
+    "SampleSet/MVS Data/Calibration/cal18/pos_004.txt": "b34fbd8b584ee6085ed59ad2656e46dc3abe9fdc0d09b310228a87bd141ff34d",
+    "SampleSet/MVS Data/Calibration/cal18/pos_005.txt": "54d049c6e0b234ec949e1902d89eec33587f8ad4a53fd7df648ae3707d493642",
+    "SampleSet/MVS Data/Calibration/cal18/pos_006.txt": "d51df3a6d0055c8a01cad8f2f50811594e64360b561ece2f25b54d2bfe1c88b0",
+    "SampleSet/MVS Data/Calibration/cal18/pos_007.txt": "eba9bcfb252b997348c9cae16a39dad829a29969bc939e681b55cfc0a36dbe46",
+    "SampleSet/MVS Data/Calibration/cal18/pos_008.txt": "a04b1d0ea0d80980585b562dad17c283cc6e9564996b9fca352bbe6cdf9e3893",
+    "SampleSet/MVS Data/Calibration/cal18/pos_009.txt": "db1e23ced12f7bf5ca24e46b402dcaace98481a4ff2158d53747bcdac91184c2",
+    "SampleSet/MVS Data/Calibration/cal18/pos_010.txt": "ecc3a331d36a3bc4d8b1c739fb24184a590f017498d2268ab0d52e42a56f6a23",
+    "SampleSet/MVS Data/Calibration/cal18/pos_011.txt": "a64e9a8a2f4e3408740366f7047c6c9b8b6acd86444ec18af75a07e96fd760d1",
+    "SampleSet/MVS Data/Calibration/cal18/pos_012.txt": "67858dd75353b8ddaa837d11cfb193d14afb68af7f184274bd55fe3ea5631591",
+    "SampleSet/MVS Data/Calibration/cal18/pos_013.txt": "8f8975bb6e790a4b81a2d9adc62b9c2c074228558e7baae2b3fb4948ff7eb93b",
+    "SampleSet/MVS Data/Calibration/cal18/pos_014.txt": "52df3cbc7fb79d2f4e010158f495a144778e899d7a35618ec43177c162ecdb27",
+    "SampleSet/MVS Data/Calibration/cal18/pos_015.txt": "267e5f2517fefc205492668df0d7585d9d1d3ceafa68f75712988a40a6479148",
+    "SampleSet/MVS Data/Calibration/cal18/pos_016.txt": "622056133b5268797c11f7a2f9b26ada9de9afc02e992f50ea32aa0a691ec0e8",
+    "SampleSet/MVS Data/Calibration/cal18/pos_017.txt": "10be00b1e1321d0e7308dfb63e3355db51899bfc1b5a5283d881bc1243e86783",
+    "SampleSet/MVS Data/Calibration/cal18/pos_018.txt": "f8add6c54af0fc99d08e6c3f234767ae1eaa06f936a9bdb5d40838dd1cc60cfa",
+    "SampleSet/MVS Data/Calibration/cal18/pos_019.txt": "570333481a91c7776e8da0e3e2228c542a512eb1ee202d5d931aa93d368fd966",
+    "SampleSet/MVS Data/Calibration/cal18/pos_020.txt": "bf2344171ffa41969c9761ddbe1c1c097e12070b749673afe4022d959083bcd1",
+    "SampleSet/MVS Data/Calibration/cal18/pos_021.txt": "a2e29b287e903d097c8e8673cfa9af29610e92cfb7d148163f59f01f6535fbe4",
+    "SampleSet/MVS Data/Calibration/cal18/pos_022.txt": "0472bff960feb6e256949e9376de19875b6f1311d4ece06d0eb97f292513e5c6",
+    "SampleSet/MVS Data/Calibration/cal18/pos_023.txt": "7b6e4f73b727ef3c83947f09f2a9d74d6eb0d7071ec375eeb380e2eb39882014",
+    "SampleSet/MVS Data/Calibration/cal18/pos_024.txt": "cb030dcd9eff73a611c7bd986ca1be5d050905d789ee9f36e2a473b53ddaacd3",
+    "SampleSet/MVS Data/Calibration/cal18/pos_025.txt": "a6773cd522ad09d663bb9612477342cda3a930c223ec10493935ef4cf00f549a",
+    "SampleSet/MVS Data/Calibration/cal18/pos_026.txt": "cffb3b8bdda10f8509d457ae23e2841a81d93ba75d878552e8aeb37feea21d10",
+    "SampleSet/MVS Data/Calibration/cal18/pos_027.txt": "52a871abf5aaf2956603339d87b6baeb6576eaf14ee910582a699e09e5069660",
+    "SampleSet/MVS Data/Calibration/cal18/pos_028.txt": "e0b30d843e30842e7525adbef54fdecc916b68ba7b07997b1cd480bc1583eae1",
+    "SampleSet/MVS Data/Calibration/cal18/pos_029.txt": "fd40437296bca421aeb75a9a82f09c772d96d41725077994a639f09f7a98c037",
+    "SampleSet/MVS Data/Calibration/cal18/pos_030.txt": "998e13d9b6daea39e071690834b38c4295152095dde92ef32b79d125bca5a9ae",
+    "SampleSet/MVS Data/Calibration/cal18/pos_031.txt": "9c716db26fdb3efd45dde164ec138c6e3c06b5e5723f9aaf4b2effb9b6432eb3",
+    "SampleSet/MVS Data/Calibration/cal18/pos_032.txt": "65f67822f110120233daa92539efe761b3c3e9ac11020dc03aac527a3a2563f6",
+    "SampleSet/MVS Data/Calibration/cal18/pos_033.txt": "21b3210c9c20c8630bc8266f31a1b963457da99f9e465bebe54d4ab83cec64d8",
+    "SampleSet/MVS Data/Calibration/cal18/pos_034.txt": "0691a51e3064fc67fe03bbfce187dca504bb868fd3916086fd02a62fbc31dfd3",
+    "SampleSet/MVS Data/Calibration/cal18/pos_035.txt": "ff44bd66caf7d030df84339d918b491968b0793860eee0b13bea4eed72221ed4",
+    "SampleSet/MVS Data/Calibration/cal18/pos_036.txt": "daab32a8b8a9ff58fc9958ebc8fc59be0314e6da7b52799e03f5d1b6c678ece9",
+    "SampleSet/MVS Data/Calibration/cal18/pos_037.txt": "fb110d34849d380b071c8e970e4274895643eeb4693254017a502a1baa43329a",
+    "SampleSet/MVS Data/Calibration/cal18/pos_038.txt": "e234e914afa7c250f4370d6035165e5af4287fdbfc6db5a739dbf0696f8c0e0b",
+    "SampleSet/MVS Data/Calibration/cal18/pos_039.txt": "5e5a9ebcf83d96ef6f1deab22d26f2fefd74879980057d2cd8d46217c9a3b8d4",
+    "SampleSet/MVS Data/Calibration/cal18/pos_040.txt": "2296c1c806b01721f19fde0fa3057f59e4d1e1ece0cd739641e4528281e6d14b",
+    "SampleSet/MVS Data/Calibration/cal18/pos_041.txt": "2d012ab992a1c84a28d292b9b0077fbad0707ff7b64a206e845dfd14acbbe30f",
+    "SampleSet/MVS Data/Calibration/cal18/pos_042.txt": "f6338e4136557be009565161eba2236c33dec5940be052d7410a10542680a66a",
+    "SampleSet/MVS Data/Calibration/cal18/pos_043.txt": "259147e0fd812dacc824b693312309617f93ec43f75db2431d7bcd3f74a70c23",
+    "SampleSet/MVS Data/Calibration/cal18/pos_044.txt": "5440f8c5b5081fb61e04b3dafb5ae9a345a3b61f08aa3156c02500a00e61cfeb",
+    "SampleSet/MVS Data/Calibration/cal18/pos_045.txt": "4716b2adc88789e93e574a5e001edf933a55d3e774a7276604e906ceee061b27",
+    "SampleSet/MVS Data/Calibration/cal18/pos_046.txt": "c8bf3ba303628fec3a3b3a36cb7830e7aa7e9897d19fde70eb857de225167fda",
+    "SampleSet/MVS Data/Calibration/cal18/pos_047.txt": "a56286759d372597b23c91083de74d84ca349b56c191aa1a5fc64609028c15de",
+    "SampleSet/MVS Data/Calibration/cal18/pos_048.txt": "d61d7d07f188c28e9dc512830878e94f91bac1b7564440e78485d69e6621d302",
+    "SampleSet/MVS Data/Calibration/cal18/pos_049.txt": "5c9a1c167a539895b57c2a6894e875e519544a8870635efefa270f7bc06d7c94"
+  },
+  "pairs": [
+    {
+      "reference": 1,
+      "horizontal": 15,
+      "vertical": 28,
+      "baseline_mm": [
+        318.03772695203327,
+        336.91090835489996
+      ],
+      "view_rotation_degrees": [
+        31.55755854834787,
+        33.474565576623284
+      ],
+      "baseline_ratio": 1.0593425867545367,
+      "rotation_difference": 1.917007028275414
+    },
+    {
+      "reference": 2,
+      "horizontal": 7,
+      "vertical": 26,
+      "baseline_mm": [
+        332.0589302791397,
+        336.1477336656108
+      ],
+      "view_rotation_degrees": [
+        33.18197278053678,
+        33.3943860262158
+      ],
+      "baseline_ratio": 1.0123134871964863,
+      "rotation_difference": 0.21241324567901643
+    },
+    {
+      "reference": 3,
+      "horizontal": 19,
+      "vertical": 24,
+      "baseline_mm": [
+        334.8833655592872,
+        336.79997995162006
+      ],
+      "view_rotation_degrees": [
+        33.448530461210176,
+        33.500437831993516
+      ],
+      "baseline_ratio": 1.005723229606021,
+      "rotation_difference": 0.05190737078333996
+    },
+    {
+      "reference": 4,
+      "horizontal": 2,
+      "vertical": 17,
+      "baseline_mm": [
+        247.24448558942984,
+        247.74080707357928
+      ],
+      "view_rotation_degrees": [
+        24.047137994050054,
+        23.98013927576405
+      ],
+      "baseline_ratio": 1.002007411744558,
+      "rotation_difference": 0.06699871828600479
+    },
+    {
+      "reference": 5,
+      "horizontal": 2,
+      "vertical": 20,
+      "baseline_mm": [
+        340.9523392475528,
+        338.2852958037343
+      ],
+      "view_rotation_degrees": [
+        34.27737872019919,
+        33.66054718655062
+      ],
+      "baseline_ratio": 1.0078840064197347,
+      "rotation_difference": 0.6168315336485648
+    },
+    {
+      "reference": 6,
+      "horizontal": 8,
+      "vertical": 20,
+      "baseline_mm": [
+        241.97558077267098,
+        234.5017426139119
+      ],
+      "view_rotation_degrees": [
+        23.395712443639916,
+        22.64247069022869
+      ],
+      "baseline_ratio": 1.0318711412352453,
+      "rotation_difference": 0.7532417534112241
+    },
+    {
+      "reference": 7,
+      "horizontal": 8,
+      "vertical": 18,
+      "baseline_mm": [
+        125.1020251309555,
+        125.96852768148607
+      ],
+      "view_rotation_degrees": [
+        11.862241873819894,
+        11.986922050798416
+      ],
+      "baseline_ratio": 1.0069263670961643,
+      "rotation_difference": 0.12468017697852218
+    },
+    {
+      "reference": 8,
+      "horizontal": 11,
+      "vertical": 35,
+      "baseline_mm": [
+        345.59916421483837,
+        347.3702661847147
+      ],
+      "view_rotation_degrees": [
+        34.67205296740017,
+        34.79661808875894
+      ],
+      "baseline_ratio": 1.00512472874146,
+      "rotation_difference": 0.12456512135877063
+    },
+    {
+      "reference": 9,
+      "horizontal": 7,
+      "vertical": 25,
+      "baseline_mm": [
+        243.59578310549568,
+        245.64805279140998
+      ],
+      "view_rotation_degrees": [
+        23.572688561577046,
+        23.793698261419163
+      ],
+      "baseline_ratio": 1.0084248982463933,
+      "rotation_difference": 0.22100969984211716
+    },
+    {
+      "reference": 10,
+      "horizontal": 23,
+      "vertical": 32,
+      "baseline_mm": [
+        342.7006219723815,
+        342.56657701185503
+      ],
+      "view_rotation_degrees": [
+        34.23580550032789,
+        34.207297638745885
+      ],
+      "baseline_ratio": 1.0003912960852623,
+      "rotation_difference": 0.02850786158200691
+    },
+    {
+      "reference": 11,
+      "horizontal": 10,
+      "vertical": 13,
+      "baseline_mm": [
+        124.43954479230474,
+        123.25635781668821
+      ],
+      "view_rotation_degrees": [
+        11.821378224526557,
+        11.713808616368707
+      ],
+      "baseline_ratio": 1.0095993991431762,
+      "rotation_difference": 0.10756960815784922
+    },
+    {
+      "reference": 12,
+      "horizontal": 15,
+      "vertical": 49,
+      "baseline_mm": [
+        345.22139396873627,
+        341.6620121615214
+      ],
+      "view_rotation_degrees": [
+        34.59637132447261,
+        34.08515536340538
+      ],
+      "baseline_ratio": 1.010417844772079,
+      "rotation_difference": 0.5112159610672293
+    },
+    {
+      "reference": 13,
+      "horizontal": 14,
+      "vertical": 11,
+      "baseline_mm": [
+        123.04629230168159,
+        123.21905229798203
+      ],
+      "view_rotation_degrees": [
+        11.69361358449454,
+        11.713808616368707
+      ],
+      "baseline_ratio": 1.0014040243965814,
+      "rotation_difference": 0.020195031874166602
+    },
+    {
+      "reference": 14,
+      "horizontal": 17,
+      "vertical": 47,
+      "baseline_mm": [
+        346.2541341636339,
+        347.1714256613574
+      ],
+      "view_rotation_degrees": [
+        34.69247417989508,
+        34.742171531944635
+      ],
+      "baseline_ratio": 1.0026491856911373,
+      "rotation_difference": 0.04969735204955583
+    },
+    {
+      "reference": 15,
+      "horizontal": 18,
+      "vertical": 4,
+      "baseline_mm": [
+        346.4608858438017,
+        346.00119961130173
+      ],
+      "view_rotation_degrees": [
+        34.68620001583474,
+        34.627125715695456
+      ],
+      "baseline_ratio": 1.0013285683200417,
+      "rotation_difference": 0.059074300139286606
+    },
+    {
+      "reference": 16,
+      "horizontal": 13,
+      "vertical": 43,
+      "baseline_mm": [
+        345.7069826906046,
+        345.30692928105657
+      ],
+      "view_rotation_degrees": [
+        34.63102130292442,
+        34.61065141450601
+      ],
+      "baseline_ratio": 1.0011585444010085,
+      "rotation_difference": 0.02036988841840781
+    },
+    {
+      "reference": 17,
+      "horizontal": 15,
+      "vertical": 3,
+      "baseline_mm": [
+        241.54656855601408,
+        242.56832209937292
+      ],
+      "view_rotation_degrees": [
+        23.36004440549258,
+        23.486389473446167
+      ],
+      "baseline_ratio": 1.0042300478515054,
+      "rotation_difference": 0.12634506795358647
+    },
+    {
+      "reference": 18,
+      "horizontal": 24,
+      "vertical": 5,
+      "baseline_mm": [
+        281.7057074557441,
+        282.64073465121504
+      ],
+      "view_rotation_degrees": [
+        27.465384498259898,
+        27.707223748438228
+      ],
+      "baseline_ratio": 1.0033191631220955,
+      "rotation_difference": 0.2418392501783302
+    },
+    {
+      "reference": 19,
+      "horizontal": 16,
+      "vertical": 40,
+      "baseline_mm": [
+        346.0211529028869,
+        345.25554856086217
+      ],
+      "view_rotation_degrees": [
+        34.68935813275354,
+        34.535789468521095
+      ],
+      "baseline_ratio": 1.0022175004723777,
+      "rotation_difference": 0.15356866423244497
+    },
+    {
+      "reference": 20,
+      "horizontal": 22,
+      "vertical": 39,
+      "baseline_mm": [
+        238.96092113699592,
+        236.42570544987376
+      ],
+      "view_rotation_degrees": [
+        23.06610317526668,
+        22.8620610205324
+      ],
+      "baseline_ratio": 1.010723096637475,
+      "rotation_difference": 0.20404215473427811
+    },
+    {
+      "reference": 21,
+      "horizontal": 23,
+      "vertical": 40,
+      "baseline_mm": [
+        238.90627542955565,
+        236.34117932869788
+      ],
+      "view_rotation_degrees": [
+        23.078209134512402,
+        22.894786026871323
+      ],
+      "baseline_ratio": 1.0108533608410675,
+      "rotation_difference": 0.1834231076410795
+    },
+    {
+      "reference": 22,
+      "horizontal": 16,
+      "vertical": 42,
+      "baseline_mm": [
+        250.92275322597902,
+        250.9463657417195
+      ],
+      "view_rotation_degrees": [
+        24.380495069450866,
+        24.369839666814343
+      ],
+      "baseline_ratio": 1.0000941027285764,
+      "rotation_difference": 0.010655402636523092
+    },
+    {
+      "reference": 23,
+      "horizontal": 25,
+      "vertical": 42,
+      "baseline_mm": [
+        239.43017412644772,
+        240.0413148142308
+      ],
+      "view_rotation_degrees": [
+        23.117358600308215,
+        23.296326831034904
+      ],
+      "baseline_ratio": 1.0025524798201095,
+      "rotation_difference": 0.17896823072668866
+    },
+    {
+      "reference": 24,
+      "horizontal": 26,
+      "vertical": 44,
+      "baseline_mm": [
+        239.17947535050195,
+        240.11782366954887
+      ],
+      "view_rotation_degrees": [
+        23.218264991470438,
+        23.319941462552336
+      ],
+      "baseline_ratio": 1.0039231974970755,
+      "rotation_difference": 0.10167647108189826
+    },
+    {
+      "reference": 25,
+      "horizontal": 28,
+      "vertical": 2,
+      "baseline_mm": [
+        344.9965113122688,
+        344.9243185465773
+      ],
+      "view_rotation_degrees": [
+        34.583644038635434,
+        34.47779892322935
+      ],
+      "baseline_ratio": 1.0002093003067911,
+      "rotation_difference": 0.10584511540608332
+    },
+    {
+      "reference": 26,
+      "horizontal": 27,
+      "vertical": 32,
+      "baseline_mm": [
+        122.11970836405342,
+        122.17699416160386
+      ],
+      "view_rotation_degrees": [
+        11.551083079585803,
+        11.588137318931397
+      ],
+      "baseline_ratio": 1.0004690954336353,
+      "rotation_difference": 0.03705423934559349
+    },
+    {
+      "reference": 27,
+      "horizontal": 24,
+      "vertical": 2,
+      "baseline_mm": [
+        345.4346578663973,
+        344.66137687237057
+      ],
+      "view_rotation_degrees": [
+        34.632775152755634,
+        34.42828176294319
+      ],
+      "baseline_ratio": 1.0022435963119625,
+      "rotation_difference": 0.20449338981244125
+    },
+    {
+      "reference": 28,
+      "horizontal": 26,
+      "vertical": 48,
+      "baseline_mm": [
+        239.01863949110043,
+        237.85332149376976
+      ],
+      "view_rotation_degrees": [
+        23.06019117502972,
+        23.020898992984705
+      ],
+      "baseline_ratio": 1.0048993135349644,
+      "rotation_difference": 0.03929218204501339
+    },
+    {
+      "reference": 29,
+      "horizontal": 31,
+      "vertical": 12,
+      "baseline_mm": [
+        238.56666729568107,
+        235.69837962886734
+      ],
+      "view_rotation_degrees": [
+        22.99794905052195,
+        22.727010315996978
+      ],
+      "baseline_ratio": 1.0121693143216774,
+      "rotation_difference": 0.27093873452497164
+    },
+    {
+      "reference": 30,
+      "horizontal": 32,
+      "vertical": 13,
+      "baseline_mm": [
+        238.48390109080202,
+        240.12517509991514
+      ],
+      "view_rotation_degrees": [
+        23.037316688235915,
+        23.193480577465074
+      ],
+      "baseline_ratio": 1.0068821165772872,
+      "rotation_difference": 0.15616388922915903
+    },
+    {
+      "reference": 31,
+      "horizontal": 32,
+      "vertical": 47,
+      "baseline_mm": [
+        121.81000997028488,
+        122.3064357040555
+      ],
+      "view_rotation_degrees": [
+        11.5323818675228,
+        11.619453113333098
+      ],
+      "baseline_ratio": 1.0040754100085183,
+      "rotation_difference": 0.08707124581029824
+    },
+    {
+      "reference": 32,
+      "horizontal": 33,
+      "vertical": 46,
+      "baseline_mm": [
+        121.45970770985708,
+        121.317237035586
+      ],
+      "view_rotation_degrees": [
+        11.518434342028389,
+        11.558494407940607
+      ],
+      "baseline_ratio": 1.0011743646472042,
+      "rotation_difference": 0.040060065912218334
+    },
+    {
+      "reference": 33,
+      "horizontal": 32,
+      "vertical": 45,
+      "baseline_mm": [
+        121.48196006845293,
+        120.68835069661442
+      ],
+      "view_rotation_degrees": [
+        11.518434342028389,
+        11.490724655220983
+      ],
+      "baseline_ratio": 1.0065756915829722,
+      "rotation_difference": 0.027709686807405376
+    },
+    {
+      "reference": 34,
+      "horizontal": 32,
+      "vertical": 16,
+      "baseline_mm": [
+        238.2675523818605,
+        237.72298255193516
+      ],
+      "view_rotation_degrees": [
+        23.026052139298244,
+        22.97462056008829
+      ],
+      "baseline_ratio": 1.0022907748509606,
+      "rotation_difference": 0.05143157920995378
+    },
+    {
+      "reference": 35,
+      "horizontal": 38,
+      "vertical": 9,
+      "baseline_mm": [
+        345.1629091663623,
+        346.09567002439286
+      ],
+      "view_rotation_degrees": [
+        34.5647495105019,
+        34.65128262565575
+      ],
+      "baseline_ratio": 1.002702378596482,
+      "rotation_difference": 0.08653311515385553
+    },
+    {
+      "reference": 36,
+      "horizontal": 35,
+      "vertical": 42,
+      "baseline_mm": [
+        121.90662211487849,
+        121.77836846056263
+      ],
+      "view_rotation_degrees": [
+        11.553108376887542,
+        11.57099171798242
+      ],
+      "baseline_ratio": 1.0010531727098757,
+      "rotation_difference": 0.01788334109487799
+    },
+    {
+      "reference": 37,
+      "horizontal": 38,
+      "vertical": 41,
+      "baseline_mm": [
+        121.74289045352596,
+        122.59357593612421
+      ],
+      "view_rotation_degrees": [
+        11.53301995138702,
+        11.646063489499532
+      ],
+      "baseline_ratio": 1.0069875577902678,
+      "rotation_difference": 0.11304353811251211
+    },
+    {
+      "reference": 38,
+      "horizontal": 36,
+      "vertical": 19,
+      "baseline_mm": [
+        238.43109395783753,
+        236.49426889994407
+      ],
+      "view_rotation_degrees": [
+        23.057716074574895,
+        22.81264001101308
+      ],
+      "baseline_ratio": 1.0081897335901737,
+      "rotation_difference": 0.24507606356181455
+    },
+    {
+      "reference": 39,
+      "horizontal": 42,
+      "vertical": 19,
+      "baseline_mm": [
+        344.749598690941,
+        344.0528211076922
+      ],
+      "view_rotation_degrees": [
+        34.36244275841798,
+        34.39573658365854
+      ],
+      "baseline_ratio": 1.0020252052606502,
+      "rotation_difference": 0.03329382524056257
+    },
+    {
+      "reference": 40,
+      "horizontal": 43,
+      "vertical": 19,
+      "baseline_mm": [
+        344.5808084749977,
+        344.88097152750544
+      ],
+      "view_rotation_degrees": [
+        34.486695922704605,
+        34.535789468521095
+      ],
+      "baseline_ratio": 1.0008710962570324,
+      "rotation_difference": 0.049093545816489836
+    },
+    {
+      "reference": 41,
+      "horizontal": 43,
+      "vertical": 22,
+      "baseline_mm": [
+        237.7717985498164,
+        237.70174155644557
+      ],
+      "view_rotation_degrees": [
+        23.042346099283566,
+        23.034744037667124
+      ],
+      "baseline_ratio": 1.0002947264622972,
+      "rotation_difference": 0.007602061616442057
+    },
+    {
+      "reference": 42,
+      "horizontal": 43,
+      "vertical": 36,
+      "baseline_mm": [
+        121.23383516585261,
+        121.79898867919938
+      ],
+      "view_rotation_degrees": [
+        11.565358922105899,
+        11.57099171798242
+      ],
+      "baseline_ratio": 1.004661681390955,
+      "rotation_difference": 0.005632795876520547
+    },
+    {
+      "reference": 43,
+      "horizontal": 44,
+      "vertical": 35,
+      "baseline_mm": [
+        120.82879808341644,
+        120.7996988051396
+      ],
+      "view_rotation_degrees": [
+        11.427233749325252,
+        11.503608750080241
+      ],
+      "baseline_ratio": 1.0002408886658218,
+      "rotation_difference": 0.07637500075498949
+    },
+    {
+      "reference": 44,
+      "horizontal": 43,
+      "vertical": 34,
+      "baseline_mm": [
+        120.83478031544544,
+        120.22281720126675
+      ],
+      "view_rotation_degrees": [
+        11.427233749325252,
+        11.44469995467652
+      ],
+      "baseline_ratio": 1.0050902410076965,
+      "rotation_difference": 0.017466205351267305
+    },
+    {
+      "reference": 45,
+      "horizontal": 47,
+      "vertical": 25,
+      "baseline_mm": [
+        237.45068174953582,
+        237.6196912985033
+      ],
+      "view_rotation_degrees": [
+        23.003049477243565,
+        23.04855666335653
+      ],
+      "baseline_ratio": 1.0007117669560779,
+      "rotation_difference": 0.04550718611296389
+    },
+    {
+      "reference": 46,
+      "horizontal": 47,
+      "vertical": 32,
+      "baseline_mm": [
+        121.38392260289844,
+        121.33026530332158
+      ],
+      "view_rotation_degrees": [
+        11.560323126503217,
+        11.558494407940607
+      ],
+      "baseline_ratio": 1.0004422416735241,
+      "rotation_difference": 0.001828718562610021
+    },
+    {
+      "reference": 47,
+      "horizontal": 49,
+      "vertical": 27,
+      "baseline_mm": [
+        237.40921279131047,
+        236.43573316874352
+      ],
+      "view_rotation_degrees": [
+        22.86993877260617,
+        22.88724825272115
+      ],
+      "baseline_ratio": 1.004117311751148,
+      "rotation_difference": 0.017309480114981568
+    },
+    {
+      "reference": 48,
+      "horizontal": 46,
+      "vertical": 28,
+      "baseline_mm": [
+        237.75499952629272,
+        237.80020116871344
+      ],
+      "view_rotation_degrees": [
+        22.98940566233129,
+        23.020898992984705
+      ],
+      "baseline_ratio": 1.0001901185779933,
+      "rotation_difference": 0.031493330653415086
+    },
+    {
+      "reference": 49,
+      "horizontal": 32,
+      "vertical": 12,
+      "baseline_mm": [
+        343.5219256016733,
+        341.385195276559
+      ],
+      "view_rotation_degrees": [
+        34.202129339506946,
+        34.08515536340538
+      ],
+      "baseline_ratio": 1.0062590011361896,
+      "rotation_difference": 0.11697397610156912
+    }
+  ]
+}
