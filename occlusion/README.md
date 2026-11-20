@@ -20,3 +20,5 @@ On two fresh 512-layout panels we projected the first match back to the starting
 The public evidence includes one count vector for each world and subset. The audit reaggregates 8,192 worlds, checks the duplicate-view identity per world and verifies the gains-minus-losses identities before matching every published total. Run `python occlusion/verify.py occlusion/results` with NumPy. [Audit implementation](verify.py) · [Audit output](results/audit.json) · [Source for view matching](run.py) · [Routing source](route.py)
 
 The account owner proposed investigating what 3D information a model can obtain from its training inputs. OpenAI Codex designed and ran the comparisons over SSH on the owner's Apple M5 Ultra, audited the scores and assisted with this manuscript.
+
+[Pubroot submission and review record](https://github.com/buildngrowsv/pubroot-website/issues/359)
