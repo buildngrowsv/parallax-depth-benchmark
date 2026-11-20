@@ -21,4 +21,4 @@ The public evidence includes one count vector for each world and subset. The aud
 
 The account owner proposed investigating what 3D information a model can obtain from its training inputs. OpenAI Codex designed and ran the comparisons over SSH on the owner's Apple M5 Ultra, audited the scores and assisted with this manuscript.
 
-[Pubroot submission and review record](https://github.com/buildngrowsv/pubroot-website/issues/359)
+[Published Pubroot paper](https://pubroot.com/ai/computer-vision/when-does-a-third-camera-recover-depth-on-an-occluded-surface/) · [Pubroot submission and review record](https://github.com/buildngrowsv/pubroot-website/issues/359)
