@@ -72,7 +72,7 @@ def photo_cues(frame, directions):
     return np.array(repetition), np.array(structure)
 
 
-def score_depth(reference, secondary, pixels, reference_matrix, target_matrix, depths=DEPTHS):
+def depth_costs(reference, secondary, pixels, reference_matrix, target_matrix, depths=DEPTHS, patch=PATCH):
     change = reference_matrix.copy()
     change[:2] /= DOWNSAMPLE
     target = target_matrix.copy()
@@ -83,7 +83,7 @@ def score_depth(reference, secondary, pixels, reference_matrix, target_matrix, d
     z_scale = np.linalg.norm(reference_matrix[2, :3])
     chunks = []
     for row in np.array_split(pixels, max(1, (len(pixels) + 63) // 64)):
-        points = row[:, None, :] + .5 + PATCH
+        points = row[:, None, :] + .5 + patch
         ref, good_ref = bilinear(reference, points)
         ref = ref - ref.mean(axis=-1, keepdims=True)
         homogeneous = np.concatenate((points, np.ones((*points.shape[:-1], 1))), axis=-1)
@@ -97,9 +97,17 @@ def score_depth(reference, secondary, pixels, reference_matrix, target_matrix, d
         norm = np.linalg.norm(ref, axis=-1)[:, None] * np.linalg.norm(photometric, axis=-1)
         valid = good_ref.all(axis=-1)[:, None] & (positive & good_secondary).all(axis=-1) & (norm > 1e-8)
         correlation = np.where(valid, dot / np.maximum(norm, 1e-8), -np.inf)
-        estimate = depths[correlation.argmax(axis=1)]
-        chunks.append(np.where(valid.any(axis=1), estimate, np.nan))
+        chunks.append(correlation)
     return np.concatenate(chunks)
+
+
+def pick_depth(costs, depths=DEPTHS):
+    estimate = depths[costs.argmax(axis=-1)]
+    return np.where(np.isfinite(costs).any(axis=-1), estimate, np.nan)
+
+
+def score_depth(reference, secondary, pixels, reference_matrix, target_matrix, depths=DEPTHS):
+    return pick_depth(depth_costs(reference, secondary, pixels, reference_matrix, target_matrix, depths), depths)
 
 
 def room(root, manifest, screen, scene):
