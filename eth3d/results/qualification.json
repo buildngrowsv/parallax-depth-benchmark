@@ -1,0 +1,43 @@
+{
+  "decision": "geometry_below_floor",
+  "eligible_scenes": 0,
+  "eligible_triplets": 0,
+  "scenes": {
+    "courtyard": {
+      "cameras": 38,
+      "triplets": 0,
+      "digests": {
+        "images.txt": "1afcc917c0538cf7168ca9c045574a786402553712be0ad2ae5affdc52b87f02",
+        "cameras.txt": "0cf9d1f1615b89eed8e48a92ef0ee44352f0fbadbb1be0c00b12f15d01c1f83c"
+      },
+      "pairs": []
+    },
+    "delivery_area": {
+      "cameras": 44,
+      "triplets": 0,
+      "digests": {
+        "images.txt": "55e67f9b4ef5092bb1c38cf5b500e39370d56d828fdc71ace91710acb427844c",
+        "cameras.txt": "2119d96da9bf30228138d5e86c174e0b87e446e2de7aef7409115a769b8e6a83"
+      },
+      "pairs": []
+    },
+    "facade": {
+      "cameras": 76,
+      "triplets": 0,
+      "digests": {
+        "images.txt": "87a937f712de8173979fadff7b844d45f61b62927b85ebd5fbf81eb0d41718be",
+        "cameras.txt": "d9efd7eabb12dcd410d6187536845583bddf852e7e9f402c7d99d1fb156e5dd2"
+      },
+      "pairs": []
+    },
+    "pipes": {
+      "cameras": 14,
+      "triplets": 0,
+      "digests": {
+        "images.txt": "52313d210be6c18191fea051655a41f6b67a365e4ef3d99b8bc8940c63eb1256",
+        "cameras.txt": "c578c441c9fe0aa0624cca280eaa6881e48d7a8df1a106fe27482da80636aecc"
+      },
+      "pairs": []
+    }
+  }
+}

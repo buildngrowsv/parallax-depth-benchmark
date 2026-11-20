@@ -1,0 +1,70 @@
+{
+  "courtyard": {
+    "cameras": 38,
+    "by_axis": {
+      "direction_only": [
+        38,
+        35
+      ],
+      "lateral": [
+        38,
+        0
+      ],
+      "all_individual_gates": [
+        36,
+        0
+      ]
+    }
+  },
+  "delivery_area": {
+    "cameras": 44,
+    "by_axis": {
+      "direction_only": [
+        44,
+        26
+      ],
+      "lateral": [
+        40,
+        4
+      ],
+      "all_individual_gates": [
+        39,
+        4
+      ]
+    }
+  },
+  "facade": {
+    "cameras": 76,
+    "by_axis": {
+      "direction_only": [
+        76,
+        55
+      ],
+      "lateral": [
+        76,
+        0
+      ],
+      "all_individual_gates": [
+        63,
+        0
+      ]
+    }
+  },
+  "pipes": {
+    "cameras": 14,
+    "by_axis": {
+      "direction_only": [
+        14,
+        4
+      ],
+      "lateral": [
+        14,
+        0
+      ],
+      "all_individual_gates": [
+        13,
+        0
+      ]
+    }
+  }
+}
