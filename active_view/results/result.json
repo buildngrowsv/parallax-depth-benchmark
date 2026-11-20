@@ -1,0 +1,76 @@
+{
+  "decision": "image_selects_view",
+  "runtime_s": 35.3756195409951,
+  "panels": {
+    "clean": {
+      "pixels": 7948988,
+      "layouts": 8192,
+      "chosen_vertical": 4297,
+      "correct": {
+        "horizontal": 7720158,
+        "vertical": 7791330,
+        "random": 7754801,
+        "planned": 7833601,
+        "hindsight": 7840167
+      },
+      "planned_minus": {
+        "horizontal": {
+          "mean": 0.014271376431817483,
+          "interval": [
+            0.013894090415192125,
+            0.014674956780692444
+          ]
+        },
+        "vertical": {
+          "mean": 0.005317783848711307,
+          "interval": [
+            0.005075524101699838,
+            0.005557673781847456
+          ]
+        },
+        "random": {
+          "mean": 0.009913211593727402,
+          "interval": [
+            0.00956998750645102,
+            0.010256880787952671
+          ]
+        }
+      }
+    },
+    "noisy": {
+      "pixels": 7958888,
+      "layouts": 8192,
+      "chosen_vertical": 4430,
+      "correct": {
+        "horizontal": 7727997,
+        "vertical": 7790493,
+        "random": 7760267,
+        "planned": 7838705,
+        "hindsight": 7848778
+      },
+      "planned_minus": {
+        "horizontal": {
+          "mean": 0.01390998340471684,
+          "interval": [
+            0.013503283273686573,
+            0.01433246181258278
+          ]
+        },
+        "vertical": {
+          "mean": 0.006057630161399432,
+          "interval": [
+            0.005761339752780878,
+            0.006348460316005253
+          ]
+        },
+        "random": {
+          "mean": 0.009855396884589907,
+          "interval": [
+            0.009499265971996629,
+            0.010215195367978065
+          ]
+        }
+      }
+    }
+  }
+}

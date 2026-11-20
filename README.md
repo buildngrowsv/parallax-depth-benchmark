@@ -62,3 +62,5 @@ python figure.py
 
 
 A perpendicular view recovered 3,939 of 4,057 repeated-texture depth aliases where two horizontal viewpoints tied exactly. [Orthogonal camera comparison](orthogonal/README.md)
+
+[Choosing the next camera direction](active_view/README.md) compares fixed, random and image-selected baselines at the same camera budget.
