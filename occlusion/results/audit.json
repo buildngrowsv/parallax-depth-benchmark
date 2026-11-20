@@ -1,0 +1,9 @@
+{
+  "layouts_checked": {
+    "pilot": 512,
+    "confirm": 512,
+    "routing_1": 512,
+    "routing_2": 512
+  },
+  "worlds_checked": 8192
+}

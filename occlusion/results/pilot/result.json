@@ -1,0 +1,44 @@
+{
+  "decision": "confirm",
+  "phase": "pilot",
+  "metrics": {
+    "all": {
+      "n": 500140,
+      "correct": {
+        "single": 464751,
+        "duplicate": 464751,
+        "matched": 456793,
+        "mismatched": 341702
+      },
+      "gained": 6745,
+      "lost": 14703
+    },
+    "newly_visible": {
+      "n": 6135,
+      "correct": {
+        "single": 2252,
+        "duplicate": 2252,
+        "matched": 5680,
+        "mismatched": 484
+      },
+      "gained": 3443,
+      "lost": 15
+    },
+    "hidden_both": {
+      "n": 0,
+      "correct": {
+        "single": 0,
+        "duplicate": 0,
+        "matched": 0,
+        "mismatched": 0
+      },
+      "gained": 0,
+      "lost": 0
+    }
+  },
+  "matched_gain_interval": [
+    0.5311430329883985,
+    0.5850609563744988
+  ],
+  "layouts": 512
+}

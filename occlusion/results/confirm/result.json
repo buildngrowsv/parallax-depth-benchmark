@@ -1,0 +1,44 @@
+{
+  "decision": "complete",
+  "phase": "confirm",
+  "metrics": {
+    "all": {
+      "n": 497880,
+      "correct": {
+        "single": 456349,
+        "duplicate": 456349,
+        "matched": 446179,
+        "mismatched": 336081
+      },
+      "gained": 1839,
+      "lost": 12009
+    },
+    "newly_visible": {
+      "n": 1456,
+      "correct": {
+        "single": 719,
+        "duplicate": 719,
+        "matched": 1197,
+        "mismatched": 165
+      },
+      "gained": 508,
+      "lost": 30
+    },
+    "hidden_both": {
+      "n": 0,
+      "correct": {
+        "single": 0,
+        "duplicate": 0,
+        "matched": 0,
+        "mismatched": 0
+      },
+      "gained": 0,
+      "lost": 0
+    }
+  },
+  "matched_gain_interval": [
+    0.28777980496498595,
+    0.37250054919206077
+  ],
+  "layouts": 512
+}
